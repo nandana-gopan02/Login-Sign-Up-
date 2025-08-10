@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(51, 169, 228);
+    /* padding: 140px 550px; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.login{
+    background-color: white;
+    height: 450px;
+    width: 390px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    /* gap: 15px; */
+}
+
+.login h2{
+    text-align: center;
+    padding: 2px;
+    color: rgb(46, 41, 41);
+}
+
+.login-form{
+    line-height: 48px;
+    /* text-align: center; */
+}
+
+.login-form b{
+    color: rgb(83, 81, 81);
+}
+
+.email{
+    height: 50px;
+    width: 100%;
+    border: 1px solid thistle;
+    padding-left: 10px;     /*moves placeholder and text to the right*/
+    margin: 0 auto;
+    box-sizing: border-box;  /*prevents overflow*/
+    
+}
+
+
+.button{
+    height: 40px;
+    width: 102%;
+    background-color:rgb(22, 109, 153) ;
+    border: 1px solid rgb(22, 109, 153);
+    color: aliceblue;
+    padding: 5px;
+}
+
+.button:hover{
+    background-color:rgb(16, 67, 93) ;
+}
+
+.login-footer{
+    text-align: center;
+    line-height: 9px;
+    padding: 20px;
+}
+.login-footer span{
+    color: rgb(15, 113, 162);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.login-footer span:hover{
+     color: rgb(5, 53, 92);
+}
+
+#signup{
+     color: rgb(15, 113, 162);
+     text-decoration: none;
+}
+
+@media(max-width :500px){
+    .login{
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+
+
